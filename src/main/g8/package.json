@@ -1,0 +1,15 @@
+{
+  "name": "$name$",
+  "version": "$version$",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-start": "tsc && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^$nodejs_version$",
+    "typescript": "^$typescript_version$"
+  }
+}

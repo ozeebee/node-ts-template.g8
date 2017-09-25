@@ -1,0 +1,25 @@
+= $name$
+:icons: font
+:source-highlighter: pygments
+:pygments-style: default
+//:toc:
+//:toc-position: left
+//:toclevels: 4
+
+TODO: Add project description here
+
+== Setup (once)
+
+  yarn install
+
+== Building
+
+  yarn run build
+
+== Starting
+
+  yarn run start
+
+== Notes
+
+Place your custom TypeScript definition files under the `src/types/` directory.

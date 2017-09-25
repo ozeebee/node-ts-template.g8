@@ -1,0 +1,31 @@
+= Node TypeScript template project
+
+A http://www.foundweekends.org/giter8/[Giter8^] template for creating a Node.js TypeScript project.
+
+== Description
+
+.Features
+* AsciiDoc README file
+* pre-configured `tsconfing.json`
+* `.vscode/` directory with a `settings.json` file
+
+== Creating a new project
+
+=== Using SBT 0.13.13+
+
+  sbt new ozeebee/node-ts-template.g8
+
+NOTE: This generates a `target` directory in the current working dir !
+
+=== Using Giter8
+
+. Install giter8
+  
+  brew update && brew install giter8
+
+. Invoke giter8 with this repo
+
+  g8 ozeebee/node-ts-template.g8
+
+. Customize the various properties
+. Et voilà !
