@@ -1,5 +1,5 @@
 {
-  "name": "$name$",
+  "name": "$name;format="normalize"$",
   "version": "$version$",
   "main": "index.js",
   "scripts": {
